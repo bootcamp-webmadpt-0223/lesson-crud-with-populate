@@ -1,0 +1,9 @@
+<h2>Posts</h2>
+{{#each posts}}
+  <div>
+    <p><b>{{title}}</b></p>
+    <p>{{content}}</p>
+    <p>Created by:{{author.username}}</p>
+    <a href="/posts/{{_id}}">View details</a>
+  </div>
+{{/each}}
